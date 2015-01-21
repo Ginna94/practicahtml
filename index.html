@@ -9,40 +9,40 @@
 <body>
   
   
- <div id="wrapper">
+ <div class="wrapper">
    
-   <div id="bloque">
-      <h1 class="blog">Un blog cualquiera</h1>
+   <div class="bloque">
+      <h1>Un blog cualquiera</h1>
   </div>
 
 
-    <div id="header">
+    <div class="header">
      <nav>
-     	 <ul>
-     	 	<li>Inicio</li>
-     	 	<li>Acerca de</li>
-     	 	<li>Productos</li>
-     	 	<li>Blog</li>
-     	 	<li>Contáctenos</li>
+     	 <ul class="navegacion">
+     	 	<li><a href="">Inicio</a></li>
+     	 	<li><a href="">Acerca de</a></li>
+     	 	<li><a href="">Productos</a></li>
+     	 	<li> <a href="">Blog</a></li>
+     	 	<li><a href="">Contáctenos</a></li>
      	 </ul>
 
      </nav>
 
     </div><!--header-->
-
-     <div id="container">
-
-     <div class="articulos">
-     	<h1>Artículos relacionados</h1>
-     	<ul>
-     		<li>Un articulo relacionado</li>
-     		<li>Otro articulo relacionado</li>
-     		<li>Un articulo relacionado más</li>
-     	</ul>
+       
+   <div class="articulos">
+      <h1>Artículos relacionados</h1>
+      <ul>
+        <li>Un articulo relacionado</li>
+        <li>Otro articulo relacionado</li>
+        <li>Un articulo relacionado más</li>
+      </ul>
 
      </div>
-     
-     <h2>World Wide Web</h2>
+
+     <div class="container">
+
+      <h2>World Wide Web</h2>
        <p>
        	En informática, la World Wide Web (WWW) o Red informática mundial comúnmente conocida como la Web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
  
@@ -51,14 +51,14 @@
 
        <h3>Índice</h3>
        
-       <ol class="lista1">
+       <ol class="lista">
        	 <li>Historia</li>
        	 <li>Funcionamiento de la web</li>
        	 <li>Estándares web</li>
        </ol>
 
        
-        <h3>Historia</h3>
+        <h3 class="titulo">Historia</h3>
 
 
      <p>En el número de mayo de 1970 de la revista Popular Science, Arthur C. Clarke predijo que algún día los satélites "llevarán el conocimiento acumulado del mundo a sus manos" con una consola que combinara la funcionalidad de la fotocopiadora, teléfono, televisión y un pequeño ordenador, que permitirá la transferencia de datos y videoconferencia en todo el mundo.
@@ -109,6 +109,76 @@ Al recibir los ficheros solicitados desde el servidor web, el navegador renderiz
  
 <p>Berners Lee dirige desde 2007 el World Wide Web Consortium (W3C), el cual desarrolla y mantiene esos y otros estándares que permiten a los ordenadores de la Web almacenar y comunicar efectivamente diferentes formas de información.</p>
 </ul>
+
+      
+      <form>
+         <label>Nombre</label> <br/> 
+         <input type="text" name="nombre" value="" placeholder="Nombre"><br/>
+
+         <label>Email</label> <br/> 
+         <input type="email" name="email" value="" placeholder="Email"><br/>
+        
+         <label>Empresa</label> <br/> 
+         <input type="text" name="empresa" value="" placeholder="Empresa"><br/>
+
+        
+         <label>Tipo de Solicitud:</label> <br/> 
+         <input type="radio" name="empresa" value="">Soporte<br/>
+         <input type="radio" name="empresa" value="">Contacto general<br/>
+          
+          <select>
+              <option>Seleccione</option>
+              <option>Costa Rica</option>
+              <option>Brasil</option>
+              <option>Italia</option>
+              <option>Dubai</option>
+          </select> <br/>
+           
+         <label>Su mensaje:</label> <br/>
+          <textarea name="descripcion" cols="40" rows="5" placeholder="Escriba su mensaje.">
+          </textarea> <br/>
+          <input type="button" value="Enviar"> 
+
+           
+      </form>
+
+      <table>
+          
+          <tr>
+             <th>Nombre</th>
+             <th>Ocupación</th>
+             <th>Edad</th>
+             <th>Cédula</th>
+             <th>Correo</th>
+          </tr>
+          <tr>
+            <td>Maria Alfaro</td>
+            <td>Contadora</td>
+            <td>43</td>
+            <td>1-333-4560</td>
+            <td>mariafria@hotmail.com</td>
+          </tr>
+
+          <tr>
+            <td>Carlos Ramírez</td>
+            <td>Gerente General</td>
+            <td>21</td>
+            <td>1-338-4560</td>
+            <td>carlosgeren@gmail.com</td>
+          </tr>
+          
+          <tr>
+            <td>Ginna Solano</td>
+            <td>Presidenta</td>
+            <td>20</td>
+            <td>1-596-4560</td>
+            <td>ginnapresi@hotmail.com</td>
+          </tr>
+
+
+
+
+      </table>
           
       </div><!--container -->
   	

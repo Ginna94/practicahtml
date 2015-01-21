@@ -3,3 +3,31 @@ body{
 	padding: 0;
 }
 
+.articulos{
+	width: 20%;
+	float: left;
+
+}
+
+.container{
+	width: 80%;
+	float: right;
+}
+
+.navegacion{
+	display: block;
+}
+
+.navegacion li {
+	display: inline-block;
+	padding: 1rem;
+}
+
+form{
+	padding: 1rem;
+}
+
+table ,tr,th,td{
+  padding: 1rem;
+  border: 1px solid #000;
+}
